@@ -1,0 +1,47 @@
+[
+    [
+        "vehicle with the information below has exited in 2023-07-05 22:16:06",
+        {
+            "indedxLocation": 126,
+            "id": 320,
+            "entertime": "2023-07-05 21:11:05",
+            "type": "motor"
+        }
+    ],
+    [
+        "vehicle with the information below has exited in 2023-07-05 22:16:17",
+        {
+            "indexLocation": 18,
+            "id": 340,
+            "entertime": "2023-07-05 22:08:46",
+            "type": "motor"
+        }
+    ],
+    [
+        "vehicle with the information below has exited in 2023-07-05 23:52:02",
+        {
+            "indexLocation": 96,
+            "id": 3212,
+            "entertime": "2023-07-05 23:51:40",
+            "type": "motor"
+        }
+    ],
+    [
+        "vehicle with the information below has exited in 2023-07-05 23:52:28",
+        {
+            "indexLocation": 69,
+            "id": 320,
+            "entertime": "2023-07-05 21:09:50",
+            "type": "motor"
+        }
+    ],
+    [
+        "vehicle with the information below has exited in 2023-07-06 08:08:22",
+        {
+            "indexLocation": 96,
+            "id": 125,
+            "entertime": "2023-07-06 08:07:57",
+            "type": "motor"
+        }
+    ]
+]

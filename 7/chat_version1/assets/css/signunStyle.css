@@ -1,0 +1,32 @@
+
+  
+  input.valid {
+    border-color: green;
+  }
+  
+  input.invalid {
+    border-color: crimson;
+  }
+  
+  input.invalid + p {
+    font-weight: bold;
+    color: crimson;
+  }
+  
+  input.valid + p,p {
+    display: none;
+  }
+  
+  form .show-password,
+  form .hide-password {
+    position: absolute;
+    right: 12px;
+    bottom: 53%;
+    cursor: pointer;
+    color: #747474;
+  }
+  
+  form .hide-password {
+    display: none;
+  }
+  

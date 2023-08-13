@@ -1,0 +1,20 @@
+{
+    "0": {
+        "id": 1,
+        "name": "ali",
+        "username": "AliZibaie",
+        "password": 123456,
+        "email": "alizibaie13802@gmail.com",
+        "is_admin": true,
+        "is_block": false
+    },
+    "2": {
+        "id": 3,
+        "name": "ali3",
+        "username": "AliZibaieA",
+        "password": 1234567,
+        "email": "alizibaie13802@gmail.com",
+        "is_admin": true,
+        "is_block": false
+    }
+}

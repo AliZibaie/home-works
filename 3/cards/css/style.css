@@ -1,0 +1,88 @@
+.bg-blue{
+    background-color: #3E54A3;
+    height: 150px;
+    padding-top: 80px;
+}
+.bg-blue h1{
+    color: #fff;
+    height: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.container{
+    display: grid;
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.container .card .image{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../images/bird.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card{
+    background-color: rgb(238, 232, 232);
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+.card .label{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.card .label button{
+    width: 60px;
+    border-radius: 30px;
+}
+.card .label .button1{
+    color: #fff;
+    background-color: red;
+    border: 1px solid red;
+}
+.card .label .button2{
+    color: purple;
+    background-color: rgb(190, 175, 190);
+    border: 1px solid rgb(190, 175, 190);
+}
+
+.card .button, .card button{
+    color: rgb(29, 138, 138);
+    border: 1px solid rgb(29, 138, 138);
+    width: auto;
+}
+.card .button{
+    border-radius: 4px;
+    height: 30px;
+}
+.card .button{
+    display: flex;
+}
+.button-span{
+    background-color: rgb(29, 138, 138);
+    text-align: center;
+    width: 20px;
+    color: #fff;
+    padding-top: 5px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.span1{
+    color: rgb(48, 176, 176);
+}
+.span2{
+    color: purple;
+    padding-left: 5px;
+}
+

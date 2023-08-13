@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+</head>
+<body class="bg-gray-300"></bodyclass>>
+    <header></header>
+    <main class="w-full">
+        <!-- form1 -->
+        <form action="" method="post" id="newParking" class="mx-auto w-1/3 px-5  py-20 flex flex-col items-center justify-center space-y-5 mt-20 ">
+            <div class="flex justify-between w-full">
+                <label for="name" class="text-black">Set a name</label>
+                <input type="text" id="name" name="name" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="open-time" class="text-black">Set a time open</label>
+                <input type="text" id="open-time" name="open-time" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="close-time" class="text-black">Set a time close</label>
+                <input type="text" id="close-time" name="close-time" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="number-of-floors" class="text-black">Set number of floors</label>
+                <input type="text" id="number-of-floors" name="number-of-floors" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+                <!-- To do let user select every floors -->
+            </div>
+            <div class="flex justify-between w-full">
+                <button type="submit" class="bg-blue-800 rounded-full w-28 px-3 py-1 text-white">Save data</button>
+                <button type = "button" id="form2" class="text-red-900">want to rent a park?click here!</button>
+            </div>
+        </form>
+        <!-- form2 -->
+        <form action="" method="post" id="newRent" class="mx-auto w-1/3 px-5  py-20 flex flex-col items-center justify-center space-y-5 mt-20 ">
+            <div class="flex justify-between w-full">
+                <label for="id" class="text-black">Set an Id</label>
+                <input type="text" id="id" name="id" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="floor" class="text-black">Set a floor</label>
+                <input type="text" id="floor" name="floor" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="index-floor" class="text-black">Set an index in floor</label>
+                <input type="text" id="index-floor" name="index-floor" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="parking-name" class="text-black">Enter the parking name</label>
+                <input type="text" id="parking-name" name="parking-name" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+                <!-- To do let user select every floors -->
+            </div>
+            <div class="flex justify-between w-full">
+                <label for="type" class="text-black">Enter the type of your vehicle</label>
+                <input type="text" id="type" name="type" class="bg-green-400 rounded-lg focus:bg-green-200 focus:text-blue-900 py-2 border-black border-2 w-64 px-3">
+                <!-- To do let user select every floors -->
+            </div>
+            <div class="flex justify-between w-full">
+                <button type="submit" class="bg-blue-800 rounded-full w-28 px-3 py-1 text-white">Save data</button>
+                <button type = "button" id="form1" class="text-red-900">want to set a parking?click here!</button>
+            </div>
+        </form>
+
+
+    </main>
+    <footer></footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        $("#newRent").hide();
+        $(document).ready(function(){
+            $("#form2").on('click',()=>{
+                $("#newParking").hide()
+                $("#newRent").show()
+            })
+        });
+        $("#newRent").hide();
+        $(document).ready(function(){
+            $("#form1").on('click',()=>{
+                $("#newParking").show()
+                $("#newRent").hide()
+            })
+        });
+    </script>
+</body>
+</html>

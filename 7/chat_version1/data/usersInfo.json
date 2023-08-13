@@ -1,0 +1,58 @@
+[
+    {
+        "name": "alizibaie",
+        "username": "AliZibaie",
+        "password": "mp*#CBUl0nTTJbcbDJY",
+        "email": "alizibaie@gmail.com",
+        "is_admin":true
+    },
+    {
+        "name": "Jeanette Greene",
+        "username": "bofodez",
+        "password": "Pa$ow0rds",
+        "email": "cigo@mailinator.com",
+        "is_admin":false
+    },
+    {
+        "name": "Ruth Vaughan",
+        "username": "quzun",
+        "password": "Pa$$w0rd!",
+        "email": "recaridozo@mailinator.com",
+        "is_admin":false
+    },
+    {
+        "name": "alizibaie2",
+        "username": "AliZibaie2",
+        "password": "mp*CBUl0nTTJbcbDJY",
+        "email": "alizibaie@gmail.com",
+        "is_admin":false
+    },
+    {
+        "name": "alizibaiesa",
+        "username": "sadasd",
+        "password": "asdbgfdsadfghfdsa",
+        "email": "aliziasdbaie@gmail.com",
+        "is_admin":false
+    },
+    {
+        "name": "alizibaie32",
+        "username": "alizibaie32",
+        "password": "sadadadasdasasdads#@",
+        "email": "alizibaie138as0@gmail.com",
+        "is_admin":false
+    },
+    {
+        "name": "alizibaie",
+        "username": "alizibaie52",
+        "password": "sdfdsdfgds@#",
+        "email": "alizibaiesd@gmail.com",
+        "is_admin":false
+    },
+    {
+        "name": "Jolene Harrell",
+        "username": "noramyxiha",
+        "password": "Pa$$w0rd!\u0634\u06cc\u0633\u0628\u0633\u0634",
+        "email": "jopav@mailinator.com",
+        "is_admin":false
+    }
+]

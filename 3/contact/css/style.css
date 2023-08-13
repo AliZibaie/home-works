@@ -1,0 +1,215 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	box-sizing: border-box;
+	direction: rtl;
+}
+/* header */
+header{
+	background-color: rgb(54, 182, 228);
+	height: 250px;
+}
+ img{
+	width: 50px;
+	margin: 15px 50px 0px 0px;
+}
+header .header-container nav{
+	width: 100%;
+	display: flex;
+}
+header .header-container nav ul{
+	display: flex;
+	margin-top: 30px;
+	width: 40%;
+	justify-content: space-evenly;
+}
+header .header-container nav ul a{
+	text-decoration: none;
+	color: #fff;
+}
+header .header-container h1{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	margin-top: 50px;
+}
+/* main */
+main form .container{
+	width: 60%;
+	margin: auto;
+	margin-top: 40px;
+}
+main form .container .section{
+	background-color: rgba(125, 168, 237, 0.5);
+	width: 810px;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+main form .container .section p {
+	text-indent: 20px;
+	color: #000;
+}
+main form .container .section p  span{
+	font-weight: 900;
+	text-decoration: underline;
+}
+main form .container>div{
+	width: 100%;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	gap:10px;
+}
+main form .container>div>div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 70px;
+	margin-top: 20px;
+}
+main form .container>div input{
+	width: 400px;
+	height: 40px;
+	border: 1px solid rgb(123, 123, 123);
+	border-radius: 5px;
+}
+main form .container .section3,main form .container .section4{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+main form .container .section3 label,main form .container .section4 label{
+	align-self: flex-start;
+	text-indent: 55px;
+}
+ main form .container>div #subject{
+	width: 810px;
+	height: 35px;
+ }
+ main form .container .section4 textarea{
+	resize: vertical;
+	/* margin-left: 30px; */
+	width: 810px;
+ }
+main form .container .section5{
+display: flex;
+flex-direction: column;
+ }
+ main form .container .section5 input{
+	width: 140px;
+	height: 40px;
+	background-image: linear-gradient(to right, #f97111, #ffab0b);
+	border-radius: 20px;
+	border: 1px solid #ffab0b;
+	margin-top: 30px;
+	align-self: flex-end;
+	margin-left: 50px;
+	color: #fff;
+	font-size: 18px;
+ }
+ main form .container input:focus:not(#submit),  main form .container textarea:active, main form .container select:active{
+border: 1px solid blue;
+outline: 1px solid blue;
+ }
+ /* footer */
+ footer{
+	margin-top: 50px;
+	height: 500px;
+	background-color: rgb(54, 182, 228);
+ }
+ footer .footer-container{
+	padding-top: 80px;
+	height: auto;
+	width: 65%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+ }
+ footer .footer-container>div{
+	width: 50%;
+ }
+ footer .footer-container .column1{
+	color: #fff;
+ }
+ footer .footer-container .column1 p{
+	margin-top: 20px;
+ }
+ footer .footer-container .column2{
+	margin-bottom: 40px;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+ }
+ footer .footer-container .column2 .image4{
+	grid-column: 1 /  span 2;
+ }
+ footer .footer-container .column2 .image4 img{
+	width: 200px;
+ }
+ footer .footer-container .column2 div{
+	width: auto;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 8px;
+ }
+ footer .footer-container .column2 img{
+	width: 100px;
+ }
+ footer hr {
+	width: 60%;
+	margin: auto;
+	
+ }
+ footer p{
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "ali Akbari",
+        "age"  : "16",
+        "school" : "Allame"
+    },
+    {
+        "name" : "masoud Ahmadi",
+        "age"  : "16",
+        "school" : "amit kabir"
+    },
+    {
+        "name" : "mohammad Hosseini",
+        "age"  : "14",
+        "school" : "Bndishe"
+    },
+    {
+        "name" : "bolbol bolboli",
+        "age"  : "14",
+        "school" : "Cndishews"
+    },
+    {
+        "name" : "reza moradi",
+        "age"  : "95",
+        "school" : "dllame2"
+    },
+    {
+        "name" : "soheil moradi",
+        "age"  : "17",
+        "school" : "zllame2"
+    },
+    {
+        "name" : "hesam davinchi",
+        "age"  : "81",
+        "school" : "wllame3"
+    },
+    {
+        "name" : "zahra bolboli",
+        "age"  : "46",
+        "school" : "llame4"
+    }
+]

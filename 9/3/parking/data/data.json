@@ -1,0 +1,159 @@
+[
+    {
+        "parkingName": "ali",
+        "openTime": "10:00",
+        "closeTime": "12:00",
+        "numberOfFloor": 7,
+        "floorCapacity": [
+            70,
+            65,
+            72,
+            75,
+            80,
+            84,
+            96
+        ],
+        "remainCapacity": 538,
+        "floor": {
+            "0": {
+                "indexLocation": 216,
+                "id": 120,
+                "enterTime": "8:00",
+                "type": "motor"
+            },
+            "1": {
+                "indexLocation": 312,
+                "id": 755,
+                "enterTime": "9:00",
+                "type": "car"
+            },
+            "2": {
+                "indexLocation": 122,
+                "id": 32,
+                "enterTime": "10:00",
+                "type": "bicycle"
+            },
+            "3": {
+                "indexLocation": 143,
+                "id": 56,
+                "enterTime": "11:00",
+                "type": "car"
+            },
+            "5": {
+                "indexLocation": 75,
+                "id": 310,
+                "entertime": "2023-07-05 22:01:29",
+                "type": "motor"
+            },
+            "6": {
+                "indexLocation": 215,
+                "id": 122,
+                "entertime": "2023-07-05 23:48:23",
+                "type": "car"
+            },
+            "7": {
+                "indexLocation": 214,
+                "id": 123,
+                "entertime": "2023-07-05 23:48:50",
+                "type": "car"
+            }
+        }
+    },
+    {
+        "parkingName": "bolbol",
+        "openTime": "8:00",
+        "closeTime": "10:00",
+        "numberOfFloor": 5,
+        "floorCapacity": [
+            72,
+            65,
+            71,
+            78,
+            86
+        ],
+        "remainCapacity": 368,
+        "floor": [
+            {
+                "indexLocation": 226,
+                "id": 120,
+                "enterTime": "8:00",
+                "type": "motor"
+            }
+        ]
+    },
+    {
+        "parkingName": "ali2",
+        "openTime": "15:00",
+        "closeTime": "16:00",
+        "numberOfFloor": 3,
+        "floorCapacity": [
+            13,
+            56,
+            21
+        ],
+        "remainCapacity": 90,
+        "floor": {
+            "1": {
+                "indexLocation": 18,
+                "id": 350,
+                "entertime": "2023-07-05 22:08:42",
+                "type": "motor"
+            },
+            "2": {
+                "indexLocation": 0,
+                "id": 320,
+                "entertime": "2023-07-05 23:52:42",
+                "type": "motor"
+            }
+        }
+    },
+    {
+        "parkingName": "ali3",
+        "openTime": "15:00",
+        "closeTime": "16:00",
+        "numberOfFloor": 4,
+        "floorCapacity": [
+            13,
+            56,
+            21,
+            42
+        ],
+        "remainCapacity": 132,
+        "floor": [
+            {
+                "indexLocation": 18,
+                "id": 340,
+                "entertime": "2023-07-05 23:40:17",
+                "type": "car"
+            },
+            {
+                "indexLocation": 18,
+                "id": 350,
+                "entertime": "2023-07-05 23:43:05",
+                "type": "car"
+            }
+        ]
+    },
+    {
+        "parkingName": "bolbol2",
+        "openTime": "14:00",
+        "closeTime": "20:00",
+        "numberOfFloor": 5,
+        "floorCapacity": [
+            13,
+            56,
+            21,
+            42,
+            23
+        ],
+        "remainCapacity": 155,
+        "floor": [
+            {
+                "indexLocation": 97,
+                "id": 124,
+                "entertime": "2023-07-05 23:50:54",
+                "type": "motor"
+            }
+        ]
+    }
+]

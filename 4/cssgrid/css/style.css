@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-gap: 8px;   
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 1300px;
+    height: 450px;
+    margin: auto;
+    margin-top: 150px;
+}
+.container div{
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.container div:nth-child(1){
+    grid-column: 1 / span 12;
+}
+.container div:nth-child(n+2):not(:nth-child(n+4)){
+    grid-column: span 6;
+}
+.container div:nth-child(n+4):not(:nth-child(n+7)){
+    grid-column: span 4;
+}
+.container div:nth-child(n+7):not(:nth-child(n+11)){
+    grid-column: span 3;
+}
+.container div:nth-child(n+11):not(:nth-child(n+17)){
+    grid-column: span 2;
+}
+.container div:nth-child(n+17){
+    grid-column: span 1;
+}
